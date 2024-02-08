@@ -9,12 +9,14 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Aidan Reed",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^9.2.14",
+    "inquirer": "^9.2.14"
+  },
+  "devDependencies": {
     "jest": "^29.7.0"
   }
 }
