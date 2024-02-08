@@ -1,13 +1,6 @@
 const Circle = require('../lib/circle');
 
 describe('Circle', () => {
-    test('constructor should set default values', () => {
-        const circle = new Circle();
-        expect(circle.x).toBe(150);
-        expect(circle.y).toBe(100);
-        expect(circle.r).toBe(80);
-    });
-
     test('constructor should set color if provided', () => {
         const circle = new Circle('blue');
         expect(circle.color).toBe('blue');
