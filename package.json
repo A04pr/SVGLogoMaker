@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Creates a logo based on user input formatted in a SVG file",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "example": "examples",
     "lib": "lib",
@@ -14,6 +15,7 @@
   "author": "Aidan Reed",
   "license": "MIT",
   "dependencies": {
+    "fs": "^0.0.1-security",
     "inquirer": "^9.2.14"
   },
   "devDependencies": {
